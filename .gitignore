@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (CRITICAL: Do not upload 500MB of libraries)
+.venv/
+venv/
+env/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Generated Assets (Optional: Keep this if you want to save space, 
+# but for this project, I recommend tracking them so judges can run it instantly)
+# src/generated/
+
+# Logs
+*.log
