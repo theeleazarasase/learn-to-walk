@@ -7,7 +7,7 @@
 
 > **"Engineers design control. Physics dictates resonance. We mapped the gap."**
 
-![Desire Path Heatmap](desire_path_heatmap.png)  
+![Desire Path Heatmap](<assets/desire to heatmap.png>) 
 *The "Desire Path" Heatmap: Yellow zones indicate where mechanical resonance creates free speed. Black zones indicate physics failure modes.*
 
 ## 🎥 The Demo (Watch this first!)
@@ -35,15 +35,15 @@ By sweeping the **Phase Space** of Body Morphology vs. Control Frequency, we dis
 
 ### 1. The "Valley of Failure" (1.0 Hz)
 *At standard frequencies, the robot fights its own mass. It vibrates in place.*
-![Struggling Robot](image_b03ff7.png)
+![Struggling Robot](<assets/Valley of Failure.png>)
 
 ### 2. The "Ridge of Agility" (2.25 Hz)
 *At resonance, the robot enters a stable limit cycle. Speed increases by 30x.*
-![Running Robot](image_b03fb9.png)
+![Running Robot](<assets/Ridge of agility.png>)
 
 ### 3. The Data Proof
 *Live telemetry confirms the massive performance gap.*
-![Data Chart](image_af47f4.png)
+![Data Chart](<assets/Data Chart.png>)
 
 ---
 
