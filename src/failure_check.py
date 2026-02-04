@@ -45,7 +45,7 @@ def run_test_case(name, setup_func):
     # Verify the detector works on the raw corrupted state
     failed, reason = check_failure(data)
     if failed:
-        print(f"✅ SUCCESS: Detected failure! Reason: {reason}")
+        print(f" SUCCESS: Detected failure! Reason: {reason}")
         return
 
     # 3. Step simulation (Only if immediate check didn't catch it)
@@ -54,15 +54,15 @@ def run_test_case(name, setup_func):
         try:
             mujoco.mj_step(model, data)
         except Exception as e:
-            print(f"✅ SUCCESS: Simulation crashed as expected ({e})")
+            print(f" SUCCESS: Simulation crashed as expected ({e})")
             return
             
         failed, reason = check_failure(data)
         if failed:
-            print(f"✅ SUCCESS: Detected failure after step! Reason: {reason}")
+            print(f" SUCCESS: Detected failure after step! Reason: {reason}")
             return
 
-    print("❌ FAIL: Detector did NOT catch the failure.")
+    print(" FAIL: Detector did NOT catch the failure.")
 # --- SABOTAGE FUNCTIONS ---
 
 def sabotage_drop(data):
